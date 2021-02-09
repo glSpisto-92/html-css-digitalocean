@@ -1,5 +1,7 @@
 /* TAG */
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* TYPO */
 
@@ -8,9 +10,34 @@
 
 
 /* HEADER */
+.nav_top{
+  line-height: 50px;
+  height: 50px;
+}
 
+.logo_top{
+  height: 30px;
+}
 
-/* LOGO E NAVBAR */
+.nav_left a, .nav_right a{
+  color: #031b4e;
+  font-weight: 600;
+}
+
+.nav_left ul a:hover, .nav_right ul a{
+  text-decoration: none;
+}
+
+.nav_right .btn_top{
+  border: 1px solid #006aff;
+  color: #006aff;
+}
+
+.hamburger{
+  background: transparent;
+  color:  #006aff;
+}
+
 
 
 /* HERO */
