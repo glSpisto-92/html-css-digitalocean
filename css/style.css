@@ -10,6 +10,9 @@ h1{
   padding-top: 100px;
 }
 
+h1, h2, h3, h4{
+  margin: 0;
+}
 /* TYPO */
 .text_w{
   color: #fff;
@@ -22,6 +25,10 @@ h1{
 
 .color_b{
   color: #031b4e;
+}
+
+.bg_grey{
+  background: #f3f5f9;
 }
 
 /* HEADER */
@@ -117,11 +124,36 @@ h1{
 }
 /* MAIN/SECTIONS */
 
+/* section sponsor */
+.sponsor_row h3{
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.sponsor_row img:not(:last-child){
+  margin-right: 15px;
+}
 
 /* RESPONSIVE */
 
-@media screen and (max-widht:768px) {
+@media screen and (max-width:992px) {
   h1{
-    color:red;
+    font-size: 42px;
+  }
+
+  .sponsor_row img{
+    width: 35%;
+
+  }
+}
+
+@media screen and (max-width:768px){
+  h1{
+    font-size: 32px;
+  }
+
+  .hero p{
+    font-size: 20px;
   }
 }
