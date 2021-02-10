@@ -36,6 +36,10 @@ h1, h2, h3, h4{
   padding: 50px;
 }
 
+.pad_t{
+  padding:40px;
+}
+
 .pad_b{
   padding-bottom: 40px;
 }
@@ -226,6 +230,28 @@ h1, h2, h3, h4{
 .info_main_2 h3{
   padding: 20px 0;
 }
+
+/* section table */
+.table_section{
+  background: linear-gradient(to top, #003399 0%, #3333ff 100%);
+}
+
+.table_p{
+  margin: 15px 0;
+}
+
+.table_p th{
+  text-transform: uppercase;
+}
+
+.table_p a{
+  color: #00d7d2;
+}
+
+.table_p tr td:last-child{
+  text-align: right;
+}
+
 
 
 
