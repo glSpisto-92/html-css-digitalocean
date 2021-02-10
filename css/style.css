@@ -12,6 +12,7 @@ h1{
 
 h1, h2, h3, h4{
   margin: 0;
+  font-weight: bold;
 }
 /* TYPO */
 .text_w{
@@ -29,6 +30,10 @@ h1, h2, h3, h4{
 
 .bg_grey{
   background: #f3f5f9;
+}
+
+.pad{
+  padding: 50px;
 }
 
 .pad_b{
@@ -104,7 +109,6 @@ h1, h2, h3, h4{
 
 .content_sign h3{
   font-size: 28px;
-  font-weight: bold;
   padding: 0 30px;
 }
 
@@ -165,7 +169,6 @@ h1, h2, h3, h4{
 }
 
 .info_main h2{
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -190,10 +193,6 @@ h1, h2, h3, h4{
 /* section carousel 1 */
 .carousel_1{
   padding: 40px 0;
-}
-
-.carousel_1 h2{
-  font-weight: bold;
 }
 
 .carousel_1 p:first-child{
@@ -223,7 +222,10 @@ h1, h2, h3, h4{
   display: inline-block;
 }
 
-
+/* section info main 2  */
+.info_main_2 h3{
+  padding: 20px 0;
+}
 
 
 
