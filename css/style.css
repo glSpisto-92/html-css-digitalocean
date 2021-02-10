@@ -187,6 +187,44 @@ h1, h2, h3, h4{
   padding-bottom: 10px;
 }
 
+/* section carousel 1 */
+.carousel_1{
+  padding: 40px 0;
+}
+
+.carousel_1 h2{
+  font-weight: bold;
+}
+
+.carousel_1 p:first-child{
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.carousel img{
+  max-width: 50%;
+  margin: 10px 0;
+}
+
+.carousel i{
+  font-size: 34px;
+  padding: 20px;
+}
+
+.carousel small{
+  font-weight: bold;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #006aff;
+  display: inline-block;
+}
+
+
+
 
 
 
@@ -209,5 +247,9 @@ h1, h2, h3, h4{
 
   .hero p{
     font-size: 20px;
+  }
+
+  .carousel a{
+    display: none;
   }
 }
