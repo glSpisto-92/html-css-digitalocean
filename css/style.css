@@ -398,6 +398,10 @@ h1, h2, h3, h4{
   .sponsor_row img{
     width: calc(50% - 4px);
   }
+
+  .text_shark, .triangle_shark{
+    display: none;
+  }
 }
 
 @media screen and (max-width:768px){
